@@ -1,6 +1,0 @@
-{
-  "name": "100k-faces",
-  "engines": {
-    "node": "10.x"
-  }
-}
