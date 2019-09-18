@@ -16,6 +16,10 @@ Gives you a random image URL as JSON
 
 [https://100k-faces.glitch.me/random-image-url](https://100k-faces.glitch.me/random-image-url)
 
+## Demo
+
+[https://100k-faces.glitch.me](https://100k-faces.glitch.me)
+
 ## Example
 
 ```
