@@ -4,7 +4,7 @@ API for 100,000 AI generated faces
 
 ## Original Images
 
-[http://generated.photos](http://generated.photos)
+[https://generated.photos](https://generated.photos)
 
 ## Usage
 
