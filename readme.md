@@ -1,3 +1,5 @@
 # 100,000 Faces
 
-[https://100k-faces.now.sh](https://100k-faces.now.sh)
+API for 100,000 AI generated faces
+
+[https://100k-faces.glitch.me](https://100k-faces.glitch.me)
