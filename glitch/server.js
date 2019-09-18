@@ -1,4 +1,3 @@
-const path = require('path')
 const express = require('express')
 const app = express()
 const port = process.env.PORT || 3000
@@ -14,7 +13,7 @@ const strPad = str => {
 }
 
 const randomImageUrl = () => {
-  const _randomInt = randomInt(1, 9999)
+  const _randomInt = randomInt(8000, 9999)
   const _strPad = strPad(_randomInt)
   const baseUrl = 'https://ozgrozer.github.io/100k-faces/10000/'
   const fullUrl = baseUrl + _strPad + '.jpg'
@@ -25,7 +24,7 @@ const randomImageUrl = () => {
 }
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'views', 'index.html'))
+  res.redirect('https://ozgrozer.github.io/100k-faces/')
 })
 
 app.get('/random-image', (req, res) => {
