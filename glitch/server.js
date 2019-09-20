@@ -10,14 +10,16 @@ const randomInt = (min, max) => {
 }
 
 const strPad = str => {
-  return '000000'.slice(str.toString().length) + str
+  return '000'.slice(str.toString().length) + str
 }
 
 const randomImageUrl = () => {
-  const _randomInt = randomInt(4000, 9999)
-  const _strPad = strPad(_randomInt)
-  const baseUrl = 'https://ozgrozer.github.io/100k-faces/10000/'
-  const fullUrl = baseUrl + _strPad + '.jpg'
+  const baseUrl = 'https://ozgrozer.github.io/100k-faces/'
+  const firstFolder = '0'
+  const secondFolder = randomInt(0, 9)
+  const randomFile = strPad(randomInt(0, 999))
+  const filename = `00${secondFolder}${randomFile}`
+  const fullUrl = `${baseUrl}${firstFolder}/${secondFolder}/${filename}.jpg`
   const result = {
     url: fullUrl
   }
