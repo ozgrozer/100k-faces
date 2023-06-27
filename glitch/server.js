@@ -29,7 +29,7 @@ const randomImageUrl = () => {
 }
 
 app.use(cors({
-    origin: 'https://www.section.io'
+    origin: '*'
 }));
 
 app.get('/', (req, res) => {
