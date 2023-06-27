@@ -1,5 +1,7 @@
 const path = require('path')
 const express = require('express')
+const cors = require('cors');
+
 const app = express()
 const port = process.env.PORT || 3000
 
@@ -25,6 +27,10 @@ const randomImageUrl = () => {
   }
   return result
 }
+
+app.use(cors({
+    origin: 'https://www.section.io'
+}));
 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'views', 'index.html'))
