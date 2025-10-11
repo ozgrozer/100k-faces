@@ -10,20 +10,20 @@ API for 100,000 AI generated faces
 
 Gives you a random image
 
-[https://100k-faces.glitch.me/random-image](https://100k-faces.glitch.me/random-image)
+[https://100k-faces.vercel.app/random-image](https://100k-faces.vercel.app/random-image)
 
 Gives you a random image URL as JSON
 
-[https://100k-faces.glitch.me/random-image-url](https://100k-faces.glitch.me/random-image-url)
+[https://100k-faces.vercel.app/random-image-url](https://100k-faces.vercel.app/random-image-url)
 
 ## Demo
 
-[https://100k-faces.glitch.me](https://100k-faces.glitch.me)
+[https://100k-faces.vercel.app](https://100k-faces.vercel.app)
 
 ## Example
 
 ```
-<img src="https://100k-faces.glitch.me/random-image" />
+<img src="https://100k-faces.vercel.app/random-image" />
 ```
 
-![](https://100k-faces.glitch.me/random-image)
+![](https://100k-faces.vercel.app/random-image)
