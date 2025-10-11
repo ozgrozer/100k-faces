@@ -10,11 +10,11 @@ API for 100,000 AI generated faces
 
 Gives you a random image
 
-[https://100k-faces.vercel.app/random-image](https://100k-faces.vercel.app/random-image)
+[https://100k-faces.vercel.app/api/random-image](https://100k-faces.vercel.app/api/random-image)
 
 Gives you a random image URL as JSON
 
-[https://100k-faces.vercel.app/random-image-url](https://100k-faces.vercel.app/random-image-url)
+[https://100k-faces.vercel.app/api/random-image-url](https://100k-faces.vercel.app/api/random-image-url)
 
 ## Demo
 
@@ -23,7 +23,7 @@ Gives you a random image URL as JSON
 ## Example
 
 ```
-<img src="https://100k-faces.vercel.app/random-image" />
+<img src="https://100k-faces.vercel.app/api/random-image" />
 ```
 
-![](https://100k-faces.vercel.app/random-image)
+![](https://100k-faces.vercel.app/api/random-image)
